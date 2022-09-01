@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <header>
+        <h1 class="text-center text-warning py-3">All Meal Items</h1>
+    </header>
+    <section class="text-center py-3">
+        <input type="text" name="" id="search-field" placeholder="search your food">
+        <button class="btn btn-primary" onclick="searchFood()">Search</button>
+    </section>
+    <section  class="text-center py-3 container" style="width:25rem">
+        <h3>Detail Foood</h3>
+       <div id="detail-container">
+       
+       </div>
+    </section>
+    <section class="container">
+        <div id ="meal-container" class="row row-cols-1 row-cols-md-3 g-4">
+         
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/meal.js"></script>
+</body>
+</html>
